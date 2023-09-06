@@ -1084,7 +1084,7 @@ img {
 
       .about__container,
       /* .skills__container, */
-      .portfolio__content,
+      /* .portfolio__content, */
       .courses__content,
       .project__container,
       .contact__container,
@@ -1209,7 +1209,8 @@ img {
           width: 320px;
       }
       .portfolio__content {
-          align-items:center;
+            margin-top: 50px;
+            align-items:center;
       }
 
       .project {
@@ -1286,6 +1287,8 @@ img {
 
 
 
-
-
+.video {
+    display:grid;
+    justify-content: center;
+}
   

@@ -509,9 +509,11 @@ img {
       display: block;
       background-color:var(--first-color);
   }
-
+  .skills__number {
+    display: none;
+  }
   .skills__html {
-      width: 80%;
+      width: 100%;
   }
   .skills__css {
       width: 70%;
@@ -520,7 +522,7 @@ img {
       width: 65%;
   }
   .skills__react {
-      width: 65%;
+      width: 100%;
   }
   .skills__git {
     width: 80%;
